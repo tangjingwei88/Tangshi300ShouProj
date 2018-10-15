@@ -1,0 +1,228 @@
+{"frames": {
+
+"AnnouncementMArk.png":
+{
+	"frame": {"x":972,"y":2,"w":39,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":39,"h":46},
+	"sourceSize": {"w":39,"h":50}
+},
+"BackGround.png":
+{
+	"frame": {"x":2,"y":174,"w":528,"h":491},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":491},
+	"sourceSize": {"w":528,"h":491}
+},
+"Border.png":
+{
+	"frame": {"x":658,"y":301,"w":244,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":241},
+	"sourceSize": {"w":244,"h":241}
+},
+"Border2.png":
+{
+	"frame": {"x":2,"y":728,"w":206,"h":223},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":206,"h":223},
+	"sourceSize": {"w":206,"h":223}
+},
+"BottomBack.png":
+{
+	"frame": {"x":658,"y":2,"w":312,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":110},
+	"sourceSize": {"w":312,"h":110}
+},
+"ChangePageBtn.png":
+{
+	"frame": {"x":927,"y":114,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52}
+},
+"CloseBtn.png":
+{
+	"frame": {"x":544,"y":127,"w":100,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":72},
+	"sourceSize": {"w":100,"h":72}
+},
+"FullMark.png":
+{
+	"frame": {"x":381,"y":815,"w":169,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":140},
+	"sourceSize": {"w":169,"h":140}
+},
+"GuildIconBack.png":
+{
+	"frame": {"x":680,"y":809,"w":126,"h":126},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":126,"h":126},
+	"sourceSize": {"w":126,"h":126}
+},
+"NormalBtn.png":
+{
+	"frame": {"x":210,"y":741,"w":197,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":72},
+	"sourceSize": {"w":197,"h":72}
+},
+"PropBack.png":
+{
+	"frame": {"x":532,"y":579,"w":375,"h":147},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":375,"h":147},
+	"sourceSize": {"w":375,"h":147}
+},
+"ReputationMark.png":
+{
+	"frame": {"x":912,"y":209,"w":98,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":98,"h":92},
+	"sourceSize": {"w":100,"h":100}
+},
+"ReturnBtn.png":
+{
+	"frame": {"x":703,"y":728,"w":193,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":193,"h":72},
+	"sourceSize": {"w":193,"h":72}
+},
+"SelectedMark.png":
+{
+	"frame": {"x":552,"y":809,"w":126,"h":126},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":126,"h":126},
+	"sourceSize": {"w":126,"h":126}
+},
+"SmallBtn.png":
+{
+	"frame": {"x":723,"y":937,"w":174,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":174,"h":72},
+	"sourceSize": {"w":174,"h":72}
+},
+"SolvedMark.png":
+{
+	"frame": {"x":210,"y":815,"w":169,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":140},
+	"sourceSize": {"w":169,"h":140}
+},
+"StraightBack.png":
+{
+	"frame": {"x":2,"y":127,"w":540,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":540,"h":45},
+	"sourceSize": {"w":540,"h":45}
+},
+"TabBtn_Activated.png":
+{
+	"frame": {"x":552,"y":937,"w":169,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":79},
+	"sourceSize": {"w":169,"h":79}
+},
+"TabBtn_NotActivated.png":
+{
+	"frame": {"x":532,"y":728,"w":169,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":79},
+	"sourceSize": {"w":169,"h":79}
+},
+"TitleBack.png":
+{
+	"frame": {"x":658,"y":209,"w":252,"h":90},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":90},
+	"sourceSize": {"w":252,"h":90}
+},
+"TopBack.png":
+{
+	"frame": {"x":658,"y":114,"w":267,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":267,"h":93},
+	"sourceSize": {"w":267,"h":93}
+},
+"TopBanner.png":
+{
+	"frame": {"x":2,"y":2,"w":654,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":654,"h":123},
+	"sourceSize": {"w":654,"h":123}
+},
+"btn_gray.png":
+{
+	"frame": {"x":210,"y":667,"w":198,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":72},
+	"sourceSize": {"w":198,"h":72}
+},
+"guildIcon1.png":
+{
+	"frame": {"x":532,"y":201,"w":124,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":124,"h":126},
+	"sourceSize": {"w":126,"h":126}
+},
+"guildIcon2.png":
+{
+	"frame": {"x":532,"y":455,"w":122,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":122,"h":122},
+	"sourceSize": {"w":126,"h":126}
+},
+"guildIcon3.png":
+{
+	"frame": {"x":532,"y":329,"w":124,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":124,"h":124},
+	"sourceSize": {"w":126,"h":126}
+},
+"guildIcon4.png":
+{
+	"frame": {"x":410,"y":667,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":120,"h":120},
+	"sourceSize": {"w":126,"h":126}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "GuildAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4b83c0ff22d6f77a6905c5b67c2ec697$"
+}
+}

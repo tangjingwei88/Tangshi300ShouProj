@@ -1,0 +1,68 @@
+{"frames": {
+
+"BaseBtn.png":
+{
+	"frame": {"x":287,"y":60,"w":175,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":175,"h":71},
+	"sourceSize": {"w":175,"h":71}
+},
+"Black.png":
+{
+	"frame": {"x":287,"y":133,"w":126,"h":126},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":126,"h":126},
+	"sourceSize": {"w":126,"h":126}
+},
+"CloseBtn.png":
+{
+	"frame": {"x":415,"y":133,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":69},
+	"sourceSize": {"w":70,"h":69}
+},
+"GemCompoundLine.png":
+{
+	"frame": {"x":2,"y":268,"w":264,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":264,"h":131},
+	"sourceSize": {"w":264,"h":131}
+},
+"PopUpBack.png":
+{
+	"frame": {"x":2,"y":2,"w":283,"h":264},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":283,"h":264},
+	"sourceSize": {"w":283,"h":264}
+},
+"TextBack.png":
+{
+	"frame": {"x":287,"y":2,"w":186,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":56},
+	"sourceSize": {"w":186,"h":56}
+},
+"TransparentBack.png":
+{
+	"frame": {"x":415,"y":204,"w":50,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":49},
+	"sourceSize": {"w":50,"h":49}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "GemPanelAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5c9b4fdebcde849434a168b14cba91b3$"
+}
+}

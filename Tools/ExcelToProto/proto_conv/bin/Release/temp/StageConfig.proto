@@ -1,0 +1,10 @@
+message StageConfig
+{
+	required int32 ID = 1;
+	required string Name = 2;
+	required string Icon = 3;
+	required string author = 4;
+	required string PoemItem = 5;
+	required string PoemText = 6;
+	required string annotation = 7;
+}
