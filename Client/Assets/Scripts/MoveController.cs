@@ -19,7 +19,7 @@ public class MoveController : MonoBehaviour
     {
         Debug.LogError("OnLeftMoveClick");
         //transform.Translate(transform.localPosition * Time.deltaTime * 30f);
-        transform.Translate(new Vector3(transform.localPosition.x * Time.deltaTime * moveSpeed,transform.localPosition.y,0));
+        transform.Translate(new Vector3(transform.localPosition.x + moveSpeed,transform.localPosition.y,0));
     }
 
 
@@ -27,7 +27,7 @@ public class MoveController : MonoBehaviour
     public void OnRightMoveClick()
     {
         Debug.LogError("OnRightMoveClick");
-        transform.Translate(new Vector3(-transform.localPosition.x * Time.deltaTime * moveSpeed, transform.localPosition.y, 0));
+        transform.Translate(new Vector3(-transform.localPosition.x -moveSpeed, transform.localPosition.y, 0));
 
     }
 
@@ -36,7 +36,7 @@ public class MoveController : MonoBehaviour
     public void OnUpMoveClick()
     {
         Debug.LogError("OnUpMoveClick");
-        transform.Translate(new Vector3(transform.localPosition.x, transform.localPosition.y * Time.deltaTime * moveSpeed,0));
+        transform.Translate(new Vector3(transform.localPosition.x, transform.localPosition.y + moveSpeed,0));
 
     }
 
@@ -45,7 +45,7 @@ public class MoveController : MonoBehaviour
     public void OnDownMoveClick()
     {
         Debug.LogError("OnDownMoveClick");
-        transform.Translate(new Vector3(transform.localPosition.x, -transform.localPosition.y * Time.deltaTime * moveSpeed, 0));
+        transform.Translate(new Vector3(transform.localPosition.x, -transform.localPosition.y - moveSpeed, 0));
     }
 
     #endregion
