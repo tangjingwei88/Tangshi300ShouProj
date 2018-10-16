@@ -4,12 +4,66 @@ using System.Collections;
 public class MoveController : MonoBehaviour
 {
 
+    private float moveSpeed = 5;
+    private float rotateSpeed = 5; 
+
     void OnEnable()
     {
         EasyJoystick.On_JoystickMove += OnJoystickMove;
         EasyJoystick.On_JoystickMoveEnd += OnJoystickMoveEnd;
     }
 
+    #region 方向按钮
+    //向左移动
+    public void OnLeftMoveClick()
+    {
+        Debug.LogError("OnLeftMoveClick");
+        //transform.Translate(transform.localPosition * Time.deltaTime * 30f);
+        transform.Translate(new Vector3(transform.localPosition.x * Time.deltaTime * moveSpeed,transform.localPosition.y,0));
+    }
+
+
+    //向右移动
+    public void OnRightMoveClick()
+    {
+        Debug.LogError("OnRightMoveClick");
+        transform.Translate(new Vector3(-transform.localPosition.x * Time.deltaTime * moveSpeed, transform.localPosition.y, 0));
+
+    }
+
+
+    //向上移动
+    public void OnUpMoveClick()
+    {
+        Debug.LogError("OnUpMoveClick");
+        transform.Translate(new Vector3(transform.localPosition.x, transform.localPosition.y * Time.deltaTime * moveSpeed,0));
+
+    }
+
+
+    //向下移动
+    public void OnDownMoveClick()
+    {
+        Debug.LogError("OnDownMoveClick");
+        transform.Translate(new Vector3(transform.localPosition.x, -transform.localPosition.y * Time.deltaTime * moveSpeed, 0));
+    }
+
+    #endregion
+
+    #region  旋转按钮
+    //向左旋转
+    public void OnLeftRotateClick()
+    {
+
+    }
+
+
+    //向右旋转
+    public void OnRightRotateClick()
+    {
+
+    }
+    #endregion
 
     //移动摇杆结束
     void OnJoystickMoveEnd(MovingJoystick move)
@@ -40,9 +94,9 @@ public class MoveController : MonoBehaviour
             Debug.LogError("joyPositionX" + joyPositionX);
             Debug.LogError("joyPositionY" + joyPositionY);
             transform.localPosition = new Vector3( joyPositionX,joyPositionY,0);
-            transform.localRotation = Quaternion.Euler(new Vector3(0, 0, joyPositionX));
+            transform.localRotation = Quaternion.Euler(new Vector3(0, 0, joyPositionY * Time.deltaTime * 30));
             //设置角色的朝向（朝向当前坐标+摇杆偏移量）
-            // transform.LookAt(new Vector3(transform.position.x + joyPositionX, transform.position.y, transform.position.z + joyPositionY));
+            // transform.LookAt(new Vector3(0, 0, transform.position.z + joyPositionY));
             //移动玩家的位置（按朝向位置移动）
             transform.Translate(transform.localPosition * Time.deltaTime * 30f);
             
